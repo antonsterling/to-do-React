@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/to-do-React/static/css/main.b2b268ea.css",
+    "main.js": "/to-do-React/static/js/main.ce122778.js",
+    "static/media/todo.png": "/to-do-React/static/media/todo.bdebf24a9e8037535b4a.png",
+    "static/media/eliminar.png": "/to-do-React/static/media/eliminar.1583723861a66fb05605.png",
+    "static/media/finalizar.png": "/to-do-React/static/media/finalizar.6f298cca57a5a8b36055.png",
+    "index.html": "/to-do-React/index.html",
+    "main.b2b268ea.css.map": "/to-do-React/static/css/main.b2b268ea.css.map",
+    "main.ce122778.js.map": "/to-do-React/static/js/main.ce122778.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2b268ea.css",
+    "static/js/main.ce122778.js"
+  ]
+}
