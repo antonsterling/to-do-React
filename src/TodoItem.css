@@ -1,0 +1,44 @@
+.contenedorTareas{
+    display: grid;
+    grid-template-columns: 25px 1fr 25px;
+    padding: 10px;
+    background-color: var(--sombraGradiente2);
+    border-radius: 20px;
+    place-items: center;
+}
+
+.icono{
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.iconoFinalizar{
+    background-image: url('../public/finalizar.png');
+    transition: 0.5s transform;
+}
+
+.iconoFinalizar:hover, .iconoEliminar:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+.tareas{
+    justify-self: left;
+    margin: 0 10px;
+    font-family: 'Lato';
+    font-size: 18px;
+    color: var(--blanco);
+}
+
+.iconoEliminar{
+    background-image: url('../public/eliminar.png');
+    transition: 0.5s transform;
+}
+
+.completed{
+    text-decoration: line-through;
+}

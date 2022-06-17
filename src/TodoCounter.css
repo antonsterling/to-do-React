@@ -1,0 +1,14 @@
+.tituloContador{
+    font-size: 50px;
+    color: var(--blanco);
+    text-shadow: 1px 1px 6px var(--negro);
+    text-align: center;
+    margin: 0;
+}
+
+.subtituloContador{
+    margin: 0 0 20px;
+    font-size: 22px;
+    text-shadow: 0px 0px 2px var(--negro);
+    text-align: center;
+}

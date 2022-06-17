@@ -1,0 +1,14 @@
+.contenderTarea{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.contenderTarea ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px 5px 20px 5px;
+    list-style: none;
+    gap: 10px;
+}

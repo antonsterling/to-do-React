@@ -1,0 +1,26 @@
+.contenedorBuscar{
+    display: flex;
+    flex-direction: row;
+}
+
+.botonBuscar{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px 10px;
+    background-image: url(../public/busqueda.png);
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.botonBuscar:hover{
+    background-color: var(--colorAzul);
+}
+
+.buscar{
+    margin: 0 10px 0;
+}

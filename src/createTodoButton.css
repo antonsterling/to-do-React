@@ -1,0 +1,56 @@
+.tituloTarea{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.subTitulo{
+    margin: 10px 20px 5px;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+.campoBusqueda{
+    display: block;
+    margin: 5px auto 50px;
+    width: 90%;
+    height: 40px;
+    padding: 0 10px;
+    border: 1 solid var(--sombraGradiente2);
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px 0px #5639707e;
+    box-sizing: border-box;
+}
+
+.campoBusqueda:hover{
+    background-color: var(--colorGradiente1);
+}
+
+.botonAñadir{
+    display: block;
+    width: 100px;
+    height: 35px;
+    background-color: #563970b7;
+    border: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--blanco);
+    font-weight: 600;
+    font-family: 'Lato';
+    margin: 0 auto;
+}
+
+.botonAñadir:hover{
+    background-color: var(--colorAzul);
+}
+
+.imagen{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0px;
+    border-radius: 20px;
+    background-image: url('../public/todo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
